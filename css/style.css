@@ -175,13 +175,14 @@ a{
     background-color:  #abcfe7;
 } */
 
+
 /* esempio con il calc */
 .main-contents{
     float: left;
-    /* height: 470px; questa altezza verrà eliminata successivamente */
+    height: 470px; /*questa altezza verrà eliminata successivamente  */
     width: calc(70% - 30px);
     margin: 0px 15px;
-    /* background-color:  #abcfe7;  */
+    background-color:  #abcfe7; 
 }
 /* fine esempio con il calc */
 
@@ -192,9 +193,18 @@ a{
 
 /* footer */
 footer{
-    background-color: #8801fe;
-    height: 60px; /*questa altezza verrà eliminata successivamente */
+    /* background-color: #8801fe; */
+    /* height: 60px; questa altezza verrà eliminata successivamente */
     margin-top: 10px;
+    text-align: center;
 }
+
+
+
+#red-heart{
+    color: red;
+}
+
+
 
 /* /footer */
