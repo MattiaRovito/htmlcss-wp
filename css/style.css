@@ -8,7 +8,7 @@
 body{
     background-color: white;
     padding: 0 80px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Heebo', sans-serif;
 }
 /* /body */
 
@@ -73,9 +73,9 @@ a{
 
 .jumbotron{
     background-image: url(../img/banner.jpg);
+    background-position: center;
+    background-size: cover;
     filter: brightness(80%);
-    height: 600px;
-    vertical-align: middle;
     border-radius: 15px;
 }
 
