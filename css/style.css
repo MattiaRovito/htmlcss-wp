@@ -66,15 +66,41 @@ a{
 
 
 /* main{
-    /* border: 2px solid black; questo border verrà eliminato successivamente    */
-
+     border: 2px solid black; questo border verrà eliminato successivamente    
 } 
+*/
+
+
+.jumbotron{
+    background-image: url(../img/banner.jpg);
+    filter: brightness(80%);
+    height: 600px;
+    vertical-align: middle;
+    border-radius: 15px;
+}
+
+#text-jumbotron h2,p{
+    color: #ffffff;
+}
+
+#text-jumbotron p{
+    font-size: 14px;
+}
+#text-jumbotron h2{
+    font-size: 30px;
+}
 
 
 
 
+#text-jumbotron{
+    padding: 415px 600px 50px 50px;
+}
 
-.main-top{
+
+
+
+.jumbotron{
     /* background-color: #e1d67a;
      height: 400px; questa altezza verrà eliminata successivamente */
     margin-bottom: 30px;
