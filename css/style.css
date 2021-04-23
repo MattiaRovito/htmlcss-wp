@@ -121,8 +121,8 @@ a{
 
 
 .leadership{
-    /* height: 80px; questa altezza verrà eliminata successivamente 
-    background-color: #abcfe7; */
+    /* height: 80px; questa altezza verrà eliminata successivamente */
+    /* background-color: #abcfe7; */
     margin-bottom: 30px;
     line-height: 1;
 }
@@ -140,11 +140,33 @@ a{
 
 .link{
     float: left;
-    height: 470px; /* questa altezza verrà eliminata successivamente */
     width: 15%;
-    background-color: #abcfe7;
-    
+    line-height: 1;
+    /* background-color: #abcfe7;
+    height: 470px;  questa altezza verrà eliminata successivamente  */
 }
+
+.link-img{
+    filter: brightness(80%);
+    border-radius: 15px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.link p{
+    font-size: 16px;
+    color: #7e7e7e;
+}
+
+.link span{
+    font-size: 14px;
+    color: #9a9a9a;
+}
+
+
+
+
+
 
 /* esempio con margini in %
 .main-contents{
@@ -158,7 +180,7 @@ a{
 /* esempio con il calc */
 .main-contents{
     float: left;
-    height: 470px; /* questa altezza verrà eliminata successivamente */
+    height: 470px; /*questa altezza verrà eliminata successivamente */
     width: calc(70% - 30px);
     margin: 0px 15px;
     background-color:  #abcfe7;
