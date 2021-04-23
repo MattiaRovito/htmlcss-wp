@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body */
+body{
+    background-color: white;
+    padding: 20px 80px;
+}
+/* /body */
+
+
+/* header */
+header{
+    background-color: #e579e6;
+    height: 100px; /*questa altezza verrà eliminata successivamente */
+    margin-bottom: 30px;
+} 
+/* /header */
+
+
+
+/* main */
+.container::after{
+    content: '';
+    display: table;
+    clear: both;
+    
+}
+
+main{
+    /* border: 2px solid black; questo border verrà eliminato successivamente    */
+
+}
+
+
+
+.main-top{
+    background-color: #e1d67a;
+     height: 400px; /* questa altezza verrà eliminata successivamente */
+    margin-bottom: 30px;
+}
+
+.clearfix{
+    background-color: #0087fd;
+    height: 600px; /*questa altezza verrà eliminata successivamente */
+}
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+
+.leadership{
+    height: 80px; /* questa altezza verrà eliminata successivamente */
+    background-color: #abcfe7;
+    margin-bottom: 30px;
+}
+
+.link{
+    float: left;
+    height: 470px; /* questa altezza verrà eliminata successivamente */
+    width: 15%;
+    background-color: #abcfe7;
+    
+}
+
+/* esempio con margini in %
+.main-contents{
+    float: left;
+    height: 470px;  questa altezza verrà eliminata successivamente 
+    width: 68%;
+    margin: 0px 1%;
+    background-color:  #abcfe7;
+} */
+
+/* esempio con il calc */
+.main-contents{
+    float: left;
+    height: 470px; /* questa altezza verrà eliminata successivamente */
+    width: calc(70% - 30px);
+    margin: 0px 15px;
+    background-color:  #abcfe7;
+}
+/* fine esempio con il calc */
+
+
+/* /main */
+
+
+
+/* footer */
+footer{
+    background-color: #8801fe;
+    height: 60px; /*questa altezza verrà eliminata successivamente */
+    margin-top: 10px;
+}
+
+/* /footer */
