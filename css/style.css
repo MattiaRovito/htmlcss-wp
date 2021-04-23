@@ -63,16 +63,20 @@ a{
     
 }
 
-main{
+
+
+/* main{
     /* border: 2px solid black; questo border verrà eliminato successivamente    */
 
-}
+} 
+
+
 
 
 
 .main-top{
-    background-color: #e1d67a;
-     height: 400px; /* questa altezza verrà eliminata successivamente */
+    /* background-color: #e1d67a;
+     height: 400px; questa altezza verrà eliminata successivamente */
     margin-bottom: 30px;
 }
 
