@@ -6,9 +6,11 @@
 
 /* common */
 body{
-    padding: 20px 30px;
+    padding: 10px 100px;
+    font-family: 'Heebo', sans-serif;
 }
 
+/* fine common */
 
 
 
@@ -30,7 +32,6 @@ nav ul li{
 }
 
 
-
 a{
     color: #9a9a9a;
     text-decoration: none;
@@ -38,6 +39,32 @@ a{
     margin-right: 10px;
     font-size: 16px;
 }
+
+header{
+    margin-bottom: 30px;
+}
+
+/* fine header */
+
+
+/* inizio main */
+
+/* jumbotron */
+#jumbotron{
+    background-image: url(../img/img-bonus.jpg);
+    height: 420px;
+    width: 100%;
+    background-position:center;
+    background-size: cover;
+    filter: brightness(50%);
+    border-radius: 20px;
+}
+
+#text-jumbotron{
+    padding: 250px 650px 20px 80px;
+}
+/* /jumbotron */
+
 
 
 
@@ -75,6 +102,10 @@ a{
 } */
 
 
+/* .debot #jumbotron{
+    background-color: aqua;
+    height: 400px;
+} */
 
 
 
