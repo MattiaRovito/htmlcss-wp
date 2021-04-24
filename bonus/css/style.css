@@ -6,18 +6,38 @@
 
 /* common */
 body{
-    padding: 20px;
+    padding: 20px 30px;
 }
 
 
 
 
+/* header */
+#logo{
+    height: 70px;
+    padding: 5px 20px;
+    border-right: 1px solid gray;
+}
+
+.logo-section{
+    margin-bottom: 20px;
+}
+
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
 
 
 
-
-
-
+a{
+    color: #9a9a9a;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 10px;
+    font-size: 16px;
+}
 
 
 
@@ -26,11 +46,37 @@ body{
 
 
 /* debot */
-.debot {
-    background-color: red;
-}
 
-.debot header{
+
+
+/* .debot {
+    background-color: white;
+} */
+
+
+
+/* .debot header{
     background-color: aqua;
     height: 100px;
-}
+} */
+
+
+
+/* .debot .logo-section{
+    background-color: white;
+    height: 70px;
+} */
+
+
+/* 
+.debot .nav-menu{
+    background-color: blueviolet;
+    height: 30px;
+} */
+
+
+
+
+
+
+/* fine debot */
