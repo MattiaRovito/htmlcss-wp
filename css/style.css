@@ -78,15 +78,15 @@ a{
     border-radius: 15px;
 }
 
-#text-jumbotron h2,p{
+#text-jumbotron h2{
+    font-size: 30px;
     color: #ffffff;
 }
 
-#text-jumbotron p{
+
+#p-jumbo{
     font-size: 14px;
-}
-#text-jumbotron h2{
-    font-size: 30px;
+    color: #ffffff;
 }
 
 
@@ -170,6 +170,21 @@ a{
 
 
 
+.img-maincontents{
+    background-image: url(../img/banner-2.jpg);
+    height: 180px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(80%);
+    border-radius: 15px;
+    margin-bottom: 10px;
+}   
+
+
+
+
 
 
 .link-img2{
@@ -181,19 +196,29 @@ a{
     width: 100%;
     height: 180px;
     margin-bottom: 10px;
-
+}
 
 
 /* esempio con il calc */
 .main-contents{
     float: left;
-    height: 470px; /*questa altezza verrà eliminata successivamente  */
+    /* height: 470px; questa altezza verrà eliminata successivamente  */
     width: 60%;
     margin: 0px 2%;
-    background-color: red;
+    /* background-color: red; */
+    color: #9a9a9a;
+    line-height: 1;
 }
 /* fine esempio con il calc */
 
+.main-contents p{
+    font-size: 16px;
+    color: #7e7e7e;
+}
+
+.main-contents span{
+    font-size: 14px;
+}
 
 
 
